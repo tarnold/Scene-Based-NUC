@@ -26,7 +26,7 @@ CvPoint s_point;
 		Mouse
 
 	Keeps track of the users mouse
-	position so the Klaman Filter
+	position so the Kalman Filter
 	can make the proper predictions.
 */
 void mouse(int mouse_event, int x, int y, int mouse_flags, void *params) {
