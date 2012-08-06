@@ -1,0 +1,5 @@
+Scene Based NUC
+
+Kalman Filter implemented, tracks a users mouse across the screen.
+
+Built using C and OpenCV 2.4. 
