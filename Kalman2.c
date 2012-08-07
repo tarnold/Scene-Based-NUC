@@ -80,7 +80,7 @@ int count = 0;
 		prediction = cvCreateMatHeader(2, 1, CV_32F);
 		estimate = cvCreateMatHeader(2, 1, CV_32F);
 		kalmanPosition = Kalman(KF, measurement, prediction, estimate, count++);
-		cvCircle(image, cvPoint(kalmanPosition.x, kalmanPosition.y), 20, CV_RGB(255, 255, 255), 2, CV_AA, 0); 
+		cvCircle(image, cvPoint(kalmanPosition.x, kalmanPosition.y), 2, CV_RGB(255, 255, 255), 2, CV_AA, 0); 
 		cvShowImage("Kalman Filter", image);
 		cvReleaseImage(&image);
 		cvReleaseMat(&measurement);
