@@ -4,4 +4,4 @@ Kalman Filter implemented, tracks a users mouse across the screen.
 
 Built using C and OpenCV 2.4. 
 
-Run using the command:  'gcc `pkg-config opencv --cflags` Kalman2.c  -o Kalman `pkg-config opencv --libs`
+Run using the command:  gcc `pkg-config opencv --cflags` Kalman2.c  -o Kalman `pkg-config opencv --libs`
